@@ -31,19 +31,21 @@ The exercises are designed for native Linux operating systems like Ubuntu (recom
 
 ### Exercise sessions
 
-| # | topic | notebook |
-|--:|:------|:---------|
-| 0 | Course-specific Python refresher | [view](./notebooks/python_intro.ipynb) |
-| 1 | Setting up your system | [view](./notebooks/system_setup.ipynb) |
-| 2+3 | End-to-end simulations in OpenFOAM and Basilisk | [view](./notebooks/cfd_intro_exercise.ipynb) |
-| 4+5 | End-to-end machine learning project in PyTorch | [view](./notebooks/ml_intro_exercise.ipynb) |
-| 6 | Building a robust path regime classification model | [view](./notebooks/bubble_path_classification_exercise.ipynb)|
-| 7+8 | Computing highly accurate mass transfer at rising bubbles | [view](./notebooks/mass_transfer_regression_exercise.ipynb) |
-| 9 | Learning the flow past a cylinder from limited data | [view](./notebooks/cylinder_pinn_exercise.ipynb) |
-| 10+11 | Analyzing coherent structures with POD and DMD| [view](./notebooks/coherent_structures_dim_reduction_exercise.ipynb) |
-| 12 | Creating a reduced-order model using CNM | [view](./notebooks/cylinder_rom_exercise.ipynb) |
-| 13 | Optimal open-loop control of the flow past a cylinder| [view](./notebooks/cylinder_bayesian_opt_exercise.ipynb) |
-| 14+15 | Closed-loop control of the flow past a cylinder | [view](./notebooks/cylinder_drl_exercise.ipynb) |
+
+| # | topic | notebook | solutions |
+|--:|:------|:--------:|:---------:|
+| 0 | Course-specific Python refresher | [view](./exercises/python_intro.ipynb) | [view](notebooks/python_intro.ipynb) |
+| 1 | Setting up your system | [view](./exercises/system_setup.ipynb) | [view](./solutions/system_setup.ipynb) |
+| 2+3 | [End-to-End Simulations in OpenFOAM and Basilisk](./exercises/02-03_end-to-end_cfd/README.md) | [view](./exercises/02-03_end-to-end_cfd/cfd_intro_exercise.ipynb) | [view](./solutions/cfd_intro_exercise.ipynb) |
+| 4+5 | [End-to-end machine learning project in PyTorch](./exercises/04-05_end-to-end_ml/README.md) | [view](./exercises/04-05_end-to-end_ml/ml_intro_exercise.ipynb) | [view](./solutions/ml_intro_exercise.ipynb) |
+| 6 | [Building a robust path regime classification model](./exercises/06_path_regime_classification/README.md) | [view](./exercises/06_path_regime_classification/bubble_path_classification_exercise.ipynb) | [view](./solutions/bubble_path_classification_exercise.ipynb) |
+| 7+8 | [Computing highly accurate mass transfer at rising bubbles](./exercises/07-08_mass_transfer_rising_bubbles/README.md) | [view](./exercises/07-08_mass_transfer_rising_bubbles/mass_transfer_regression_exercise.ipynb) | [view](./solutions/mass_transfer_regression_exercise.ipynb) |
+| 9 | Learning the flow past a cylinder from limited data | [view](./exercises/cylinder_pinn_exercise.ipynb) | [view](./solutions/cylinder_pinn_exercise.ipynb) |
+| 10+11 | [Analyzing coherent structures with POD and DMD](./exercises/10-11_coherent_structures/README.md) | [view](./exercises/10-11_coherent_structures/coherent_structures_dim_reduction_exercise.ipynb) | [view](./solutions/coherent_structures_dim_reduction_exercise.ipynb) |
+| 12 | [Creating a Reduced-Order Model using CNM](./exercises/12_cylinder_rom_svd_cnm/README.md) | [view](./exercises/12_cylinder_rom_svd_cnm/cylinder_rom_exercise.ipynb) | [view](./solutions/cylinder_rom_exercise.ipynb) |
+| 13 | [Optimal Open-Loop Control of the Flow Past a Cylinder](./exercises/13) | [view](./exercises/cylinder_bayesian_opt_exercise.ipynb) | [view](./solutions/cylinder_bayesian_opt_exercise.ipynb) |
+| 14+15 | [Closed-Loop Control of the Flow Past a Cylinder](./exercises/14-15_cylinder_drl/README.md) | [view](./exercises/14-15_cylinder_drl/cylinder_drl_exercise.ipynb) | [view](./solutions/cylinder_drl_exercise.ipynb) |
+
 
 ## Datasets
 
