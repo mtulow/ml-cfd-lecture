@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# 
-source /home/ubuntu/ml-cfd-lecture/ml-cfd/bin/activate
-
 # location of repository
 export ML_CFD_BASE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 # location of compiled libraries
